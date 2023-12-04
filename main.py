@@ -39,6 +39,17 @@ def copyFilesToDirectory(dstpath):
     print('Copied')
 
 if __name__ == '__main__':
+    """
+    1. Check how many files is in the directory and if its not empty
+    2. Check if files in the directory have correct extension
+    3. Check the date the files were created and take the newest
+    4. Delete additional files and leave only last three files
+    5. Copy the file to the new directory
+    6. Check if the file coppied correctly
+    7. Check how many files is in the target directory
+    8. Delete additional files in the target directory and leave only last three
+    """
+
     items = items()
 
     checkNumberOfFiles(numberOfItems(items))
